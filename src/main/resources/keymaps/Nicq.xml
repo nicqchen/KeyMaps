@@ -1,0 +1,45 @@
+<keymap name="NicqC" parent="$default" version="1" disable-mnemonics="false">
+    <!-- code navigation -->
+    <action id="EditorEscape">
+        <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="ESCAPE"/>
+    </action>
+    <action id="ParameterInfo">
+        <keyboard-shortcut first-keystroke="control alt I"/>
+    </action>
+    <action id="InsertLiveTemplate">
+        <keyboard-shortcut first-keystroke="control alt J"/>
+    </action>
+    <action id="CollapseRegionRecursively">
+        <keyboard-shortcut first-keystroke="control alt SUBTRACT"/>
+        <keyboard-shortcut first-keystroke="control alt MINUS"/>
+    </action>
+    <action id="FindInPath">
+        <keyboard-shortcut first-keystroke="control alt F"/>
+    </action>
+    <action id="ShowFilePath">
+        <keyboard-shortcut first-keystroke="control alt S"/>
+    </action>
+    <!--code generation-->
+    <action id="Generate">
+        <keyboard-shortcut first-keystroke="control alt G"/>
+    </action>
+    <!-- code refactor -->
+    <action id="RenameElement">
+        <keyboard-shortcut first-keystroke="control alt R"/>
+    </action>
+    <action id="ExtractMethod">
+        <keyboard-shortcut first-keystroke="control alt M"/>
+    </action>
+    <action id="IntroduceVariable">
+        <keyboard-shortcut first-keystroke="control alt V"/>
+    </action>
+    <action id="IntroduceConstant">
+        <keyboard-shortcut first-keystroke="control alt C"/>
+    </action>
+    <action id="IntroduceFiled">
+        <keyboard-shortcut first-keystroke="control alt F"/>
+    </action>
+    <action id="IntroduceParameter">
+        <keyboard-shortcut first-keystroke="control alt P"/>
+    </action>
+</keymap>
